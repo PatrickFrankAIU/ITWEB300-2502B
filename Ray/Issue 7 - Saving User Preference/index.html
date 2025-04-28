@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+</head>
+
+<body>
+
+    <select id="font" name="font" onchange="saveFont()">
+        <option value="small">small</option>
+        <option value="medium">medium</option>
+        <option value="large">large</option>
+    </select>
+
+    <p id="fontMessage"></p>
+
+    <label for="button">This button removes the saved font.</label>
+    <button type="button" id="button" onclick="clearLocalStorage()"
+        style="background-color: rgb(142, 210, 233); padding: 5px; font-weight: bold;">Remove Font</button>
+
+</body>
+
+</html>
