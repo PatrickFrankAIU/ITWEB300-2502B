@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Exercise 2: Element Creation</title>
+    <!-- jQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Minimal styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #task-container {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px dashed #ccc;
+            min-height: 50px;
+        }
+        .task-item {
+            padding: 10px;
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .task-odd {
+            background-color: #f0f0f0;
+        }
+        .task-even {
+            background-color: #e0e0ff;
+        }
+        .delete-btn {
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            padding: 3px 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <button id="add-task-btn">Add Task</button>
+    <div id="task-container"></div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
