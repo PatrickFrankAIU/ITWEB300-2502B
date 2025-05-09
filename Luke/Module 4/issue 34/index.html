@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Exercise 3: Toggle Visibility</title>
+    <!-- jQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Minimal styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .panel {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+        }
+        .button-group {
+            margin: 20px 0;
+        }
+        button {
+            margin-right: 10px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Toggle Content Panels</h1>
+    
+    <div class="button-group">
+        <button id="toggle-panel1">Toggle Panel 1 (Fade)</button>
+        <button id="toggle-panel2">Toggle Panel 2 (Slide)</button>
+        <button id="toggle-panel3">Toggle Panel 3 (Display)</button>
+    </div>
+    
+    <div class="button-group">
+        <button id="show-all">Show All Panels</button>
+        <button id="hide-all">Hide All Panels</button>
+    </div>
+    
+    <div id="panel1" class="panel">
+        <h3>Panel 1</h3>
+        <p>This is the first panel content. This panel uses fade effect.</p>
+    </div>
+    
+    <div id="panel2" class="panel">
+        <h3>Panel 2</h3>
+        <p>This is the second panel content. This panel uses slide effect.</p>
+    </div>
+    
+    <div id="panel3" class="panel">
+        <h3>Panel 3</h3>
+        <p>This is the third panel content. This panel uses toggle effect.</p>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
