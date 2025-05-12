@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Exercise 7: Color Picker</title>
+    <!-- jQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Minimal styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .color-picker {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .color-preview {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .slider-container {
+            margin-bottom: 15px;
+        }
+        .slider-container label {
+            display: inline-block;
+            width: 50px;
+        }
+        .color-slider {
+            width: 300px;
+            vertical-align: middle;
+        }
+        .slider-value {
+            display: inline-block;
+            width: 40px;
+            text-align: right;
+        }
+        .button-group {
+            margin-top: 20px;
+        }
+        button {
+            padding: 8px 12px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .rgb-value {
+            font-family: monospace;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RGB Color Picker</h1>
+    
+    <div class="color-picker">
+        <div id="color-preview" class="color-preview"></div>
+        
+        <div id="rgb-value" class="rgb-value">rgb(128, 128, 128)</div>
+        
+        <div class="slider-container">
+            <label for="red-slider">Red:</label>
+            <input type="range" id="red-slider" class="color-slider" min="0" max="255" value="128">
+            <span id="red-value" class="slider-value">128</span>
+        </div>
+        
+        <div class="slider-container">
+            <label for="green-slider">Green:</label>
+            <input type="range" id="green-slider" class="color-slider" min="0" max="255" value="128">
+            <span id="green-value" class="slider-value">128</span>
+        </div>
+        
+        <div class="slider-container">
+            <label for="blue-slider">Blue:</label>
+            <input type="range" id="blue-slider" class="color-slider" min="0" max="255" value="128">
+            <span id="blue-value" class="slider-value">128</span>
+        </div>
+        
+        <div class="button-group">
+            <button id="random-color-btn">Random Color</button>
+            <button id="copy-rgb-btn">Copy RGB Value</button>
+        </div>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
