@@ -1,0 +1,42 @@
+{
+  "new-york": {
+    "city": "New York",
+    "temperature": "72°F",
+    "condition": "Partly Cloudy",
+    "icon": "☁️",
+    "humidity": "Humidity: 65%",
+    "windSpeed": "Wind: 8 mph"
+  },
+  "london": {
+    "city": "London",
+    "temperature": "18°C",
+    "condition": "Rainy",
+    "icon": "🌧️",
+    "humidity": "Humidity: 80%",
+    "windSpeed": "Wind: 12 km/h"
+  },
+  "tokyo": {
+    "city": "Tokyo",
+    "temperature": "26°C",
+    "condition": "Sunny",
+    "icon": "☀️",
+    "humidity": "Humidity: 55%",
+    "windSpeed": "Wind: 10 km/h"
+  },
+  "sydney": {
+    "city": "Sydney",
+    "temperature": "22°C",
+    "condition": "Clear",
+    "icon": "🌤️",
+    "humidity": "Humidity: 60%",
+    "windSpeed": "Wind: 15 km/h"
+  },
+  "paris": {
+    "city": "Paris",
+    "temperature": "21°C",
+    "condition": "Cloudy",
+    "icon": "☁️",
+    "humidity": "Humidity: 70%",
+    "windSpeed": "Wind: 8 km/h"
+  }
+}
